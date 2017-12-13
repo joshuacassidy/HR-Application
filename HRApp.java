@@ -16,6 +16,8 @@ public class HRApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        HRGUI hrGUI = new HRGUI();
+        hrGUI.setVisible(true);
     }
     
 }

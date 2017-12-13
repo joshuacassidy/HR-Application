@@ -5,11 +5,13 @@
  */
 package hrapp;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Josh
  */
-public class Employee {
+public class Employee implements Serializable {
     private String name,address,pps;
 
     public Employee(String name, String address, String pps) {
